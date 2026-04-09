@@ -3,8 +3,8 @@ import requests
 
 app = Flask(__name__)
 
-TELEGRAM_TOKEN = 8728995215:AAHqXJ0Jy1kAag8gTLuZHlxy0kgzhYq5HFs
-CLAUDE_API_KEY = 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
+TELEGRAM_TOKEN = "8728995215:AAHqXJ0Jy1kAag8gTLuZHlxy0kgzhYq5HFs"
+CLAUDE_API_KEY = "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"
 
 def ask_ai(prompt):
     url = "https://api.anthropic.com/v1/messages"
