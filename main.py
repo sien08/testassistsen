@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 
 TELEGRAM_TOKEN = "8728995215:AAHqXJ0Jy1kAag8gTLuZHlxy0kgzhYq5HFs"
-CLAUDE_API_KEY = "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"
+CLAUDE_API_KEY = "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"
 
 # =========================
 # TEST ROUTE (cek server hidup)
