@@ -7,7 +7,7 @@ app = Flask(__name__)
 TELEGRAM_TOKEN = "8728995215:AAHqXJ0Jy1kAag8gTLuZHlxy0kgzhYq5HFs"
 CLAUDE_API_KEY = os.getenv("MY_CLAUDE_KEY")
 
-print("KEY CHECK:", CLAUDE_API_KEY)
+print(os.getenv("MY_CLAUDE_KEY"))
 
 # =========================
 # TEST ROUTE (cek server hidup)
